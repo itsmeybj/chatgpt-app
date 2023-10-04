@@ -1,0 +1,12 @@
+/* for chrome/safari/opera */
+::-webkit-scrollbar{
+    display: none;
+}   
+
+body{
+    /* IE & Edge */
+    -ms-overflow-style: none;
+
+    /* Firefox */
+    scrollbar-width: none;
+}
